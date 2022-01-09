@@ -1,0 +1,59 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>新用户注册</title>
+
+    <link rel="shortcut icon" href="image/favicon.ico">
+
+    <style type="text/css">
+        @import url("css/带阴影的圆角矩形.css");
+        @import url("css/对齐和文字样式.css");
+        body {
+            /* CSS 设置背景图片 */
+            background-image: url("image/background/bg_mountain.webp");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+
+    <!-- <style type="text/javascript" src="./js/文字闪烁.js" language="JavaScript"></style> -->
+</head>
+
+<body>
+    <div class="rounded_shadow_rectangle">
+        <div class="text_left_align_margin40">
+            <h1>新用户注册</h1>
+        </div>
+
+        <div class="text_center_align_margin40">
+            <form action="./db_operation/register.php" method="post">
+                <table style="margin-left: 30px; width: 450px; padding: 0%;" border="0" cellspacing="0">
+                    <tr>
+                        <td width="80px">电子邮箱：</td>
+                        <td><input class="rounded_input" type="text" name="mail" placeholder=" 请输入您的邮箱"></td>
+                    </tr>
+                    <tr>
+                        <td>用户名：&nbsp&nbsp&nbsp</td>
+                        <td><input class="rounded_input" type="text" name="username" placeholder=" 请输入您的用户名，不超过32字符"></td>
+                    </tr>
+                    <tr>
+                        <td>密码：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
+                        <td><input class="rounded_input" type="password" name="password1" placeholder=" 请输入您的密码"></td>
+                    </tr>
+                    <tr>
+                        <td>确认：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
+                        <td><input class="rounded_input" type="password" name="password2" placeholder=" 再次输入您的密码"></td>
+                    </tr>
+                </table>
+                <button class="rounded_button" name="register">确定</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

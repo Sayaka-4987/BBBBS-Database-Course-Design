@@ -1,0 +1,53 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>BBBBS 论坛</title>
+
+    <link rel="shortcut icon" href="image/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/对齐和文字样式.css">
+    <link rel="stylesheet" type="text/css" href="css/带阴影的圆角矩形.css">
+
+    <style type="text/css">
+        /* @import url("css/带阴影的圆角矩形.css");
+        @import url("css/对齐和文字样式.css"); */
+        
+        body {
+            /* CSS 设置背景图片 */
+            background-image: url("image/background/bg_mountain.webp");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+
+    <!-- <style type="text/javascript" src="./js/文字闪烁.js" language="JavaScript"></style> -->
+</head>
+
+<body>
+    <div class="rounded_shadow_rectangle">
+        <div class="text_left_align_margin40">
+            <h1>欢迎来到 BBBBS 论坛！</h1>
+            <h3>这是我的数据库作业 5 </h3>
+            <del>PHP 是最好速成的语言！</del>
+        </div>
+
+        <div class="text_center_align_margin40">
+            <form action="login.php" method="post">
+                <input class="rounded_input" type="text" name="mail" placeholder=" 请输入您的邮箱">
+                <br>
+                <input class="rounded_input" type="password" name="password" placeholder=" 请输入您的密码">
+                <br>
+                <br>
+                <input type="checkbox" name="is_save" value="on"> 记住我的登录状态
+                <br>
+                <button type="submit" formaction="new_member.html" class="rounded_button" name="register">注册</button>
+                <button type="submit" class="rounded_button" name="login">登录</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

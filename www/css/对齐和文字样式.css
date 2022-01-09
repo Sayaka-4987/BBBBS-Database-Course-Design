@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+.text_left_align_margin40 {
+    margin: 40px;
+    position: relative;
+    text-align: left 20px;
+}
+
+.text_center_align_margin40 {
+    margin: 40px;
+    position: relative;
+    text-align: center;
+}
+
+.post_heading {
+    font-size: larger;
+    font-weight: bold;
+    color: #003f46;
+}
+
+.post_heading_x_larger {
+    font-size: x-large;
+    font-weight: bold;
+    color: #003f46;
+}

@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+.button_plus {
+    background: linear-gradient(145deg, rgba(255, 255, 255, 0.7), rgba(225, 225, 225, 0.6));
+    border: none;
+    padding: 5px 10px;
+    margin: 5px 0px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.button_plus:hover {
+    box-shadow: inset 2px 2px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.rounded_shadow_rectangle {
+    width: 450px auto;
+    height: 450px auto;
+    position: absolute;
+    /* 在页面水平垂直都居中 */
+    top: 50%;
+    left: 50%;
+    /* 适配各种浏览器 */
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    background-attachment: fixed;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+.rounded_button {
+    background: linear-gradient(145deg, rgba(255, 255, 255, 0.7), rgba(225, 225, 225, 0.6));
+    border: none;
+    color: rgba(0, 0, 0, 0.8);
+    margin: 15px 10px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.rounded_button:hover {
+    box-shadow: inset 2px 2px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.rounded_input {
+    position: relative;
+    margin: 10px;
+    width: 80%;
+    height: 36px;
+    font-size: 16px;
+    border: rgb(155, 155, 155) 1px solid;
+    border-radius: 5px;
+    /* css 3标准 */
+    -moz-border-radius: 5px;
+    /* mozilla */
+    -webkit-border-radius: 5px;
+    /* webkit */
+}
